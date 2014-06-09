@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180152CC193F35C200CF56B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CB193F35C200CF56B8 /* Foundation.framework */; };
+		180152CE193F35C200CF56B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CD193F35C200CF56B8 /* CoreGraphics.framework */; };
+		180152D0193F35C200CF56B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CF193F35C200CF56B8 /* UIKit.framework */; };
+		180152D6193F35C200CF56B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180152D4193F35C200CF56B8 /* InfoPlist.strings */; };
+		180152D8193F35C200CF56B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180152D7193F35C200CF56B8 /* main.m */; };
+		180152DC193F35C200CF56B8 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180152DB193F35C200CF56B8 /* ZYAppDelegate.m */; };
+		180152DF193F35C200CF56B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180152DD193F35C200CF56B8 /* Main.storyboard */; };
+		180152E2193F35C200CF56B8 /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180152E1193F35C200CF56B8 /* ZYViewController.m */; };
+		180152E4193F35C200CF56B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180152E3193F35C200CF56B8 /* Images.xcassets */; };
+		180152EB193F35C200CF56B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152EA193F35C200CF56B8 /* XCTest.framework */; };
+		180152EC193F35C200CF56B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CB193F35C200CF56B8 /* Foundation.framework */; };
+		180152ED193F35C200CF56B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CF193F35C200CF56B8 /* UIKit.framework */; };
+		180152F5193F35C200CF56B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180152F3193F35C200CF56B8 /* InfoPlist.strings */; };
+		180152F7193F35C200CF56B8 /* POISearchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180152F6193F35C200CF56B8 /* POISearchDemoTests.m */; };
+		18015301193F361100CF56B8 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015300193F361100CF56B8 /* AMapSearchKit.framework */; };
+		1801530E193F393800CF56B8 /* ZYCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801530D193F393800CF56B8 /* ZYCustomAnnotation.m */; };
+		18015310193F39D500CF56B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1801530F193F39D500CF56B8 /* MapKit.framework */; };
+		18015312193F39E800CF56B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015311193F39E800CF56B8 /* SystemConfiguration.framework */; };
+		18015314193F39F000CF56B8 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */; };
+		18015316193F39F600CF56B8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015315193F39F600CF56B8 /* libz.dylib */; };
+		18015318193F39FE00CF56B8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015317193F39FE00CF56B8 /* CoreTelephony.framework */; };
+		18F3997719432798001911E5 /* ZYCustomPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3997619432798001911E5 /* ZYCustomPinAnnotation.m */; };
+		18F5D3E319409032001C8739 /* ZYCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5D3E219409032001C8739 /* ZYCustomAnnotationView.m */; };
+		18F5D3E81940B0E8001C8739 /* ZYCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5D3E71940B0E8001C8739 /* ZYCalloutView.m */; };
+		18F5D3EA1940B100001C8739 /* ZYCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F5D3E91940B100001C8739 /* ZYCalloutView.xib */; };
+		18F5D3EC1940B3E8001C8739 /* flk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F5D3EB1940B3E8001C8739 /* flk.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180152EE193F35C200CF56B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180152C0193F35C200CF56B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180152C7193F35C200CF56B8;
+			remoteInfo = POISearchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180152C8193F35C200CF56B8 /* POISearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POISearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180152CB193F35C200CF56B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180152CD193F35C200CF56B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180152CF193F35C200CF56B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180152D3193F35C200CF56B8 /* POISearchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POISearchDemo-Info.plist"; sourceTree = "<group>"; };
+		180152D5193F35C200CF56B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180152D7193F35C200CF56B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180152D9193F35C200CF56B8 /* POISearchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POISearchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		180152DA193F35C200CF56B8 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		180152DB193F35C200CF56B8 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
+		180152DE193F35C200CF56B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180152E0193F35C200CF56B8 /* ZYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewController.h; sourceTree = "<group>"; };
+		180152E1193F35C200CF56B8 /* ZYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewController.m; sourceTree = "<group>"; };
+		180152E3193F35C200CF56B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180152E9193F35C200CF56B8 /* POISearchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POISearchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180152EA193F35C200CF56B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180152F2193F35C200CF56B8 /* POISearchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POISearchDemoTests-Info.plist"; sourceTree = "<group>"; };
+		180152F4193F35C200CF56B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180152F6193F35C200CF56B8 /* POISearchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POISearchDemoTests.m; sourceTree = "<group>"; };
+		18015300193F361100CF56B8 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		1801530C193F393800CF56B8 /* ZYCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomAnnotation.h; sourceTree = "<group>"; };
+		1801530D193F393800CF56B8 /* ZYCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomAnnotation.m; sourceTree = "<group>"; };
+		1801530F193F39D500CF56B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18015311193F39E800CF56B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		18015315193F39F600CF56B8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18015317193F39FE00CF56B8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18F3997519432798001911E5 /* ZYCustomPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomPinAnnotation.h; sourceTree = "<group>"; };
+		18F3997619432798001911E5 /* ZYCustomPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomPinAnnotation.m; sourceTree = "<group>"; };
+		18F5D3E119409032001C8739 /* ZYCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomAnnotationView.h; sourceTree = "<group>"; };
+		18F5D3E219409032001C8739 /* ZYCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomAnnotationView.m; sourceTree = "<group>"; };
+		18F5D3E61940B0E8001C8739 /* ZYCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalloutView.h; sourceTree = "<group>"; };
+		18F5D3E71940B0E8001C8739 /* ZYCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalloutView.m; sourceTree = "<group>"; };
+		18F5D3E91940B100001C8739 /* ZYCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYCalloutView.xib; sourceTree = "<group>"; };
+		18F5D3EB1940B3E8001C8739 /* flk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flk.jpg; path = ../../../Downloads/flk.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180152C5193F35C200CF56B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18015318193F39FE00CF56B8 /* CoreTelephony.framework in Frameworks */,
+				18015316193F39F600CF56B8 /* libz.dylib in Frameworks */,
+				18015314193F39F000CF56B8 /* libstdc++.6.0.9.dylib in Frameworks */,
+				18015312193F39E800CF56B8 /* SystemConfiguration.framework in Frameworks */,
+				18015310193F39D500CF56B8 /* MapKit.framework in Frameworks */,
+				18015301193F361100CF56B8 /* AMapSearchKit.framework in Frameworks */,
+				180152CE193F35C200CF56B8 /* CoreGraphics.framework in Frameworks */,
+				180152D0193F35C200CF56B8 /* UIKit.framework in Frameworks */,
+				180152CC193F35C200CF56B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180152E6193F35C200CF56B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180152EB193F35C200CF56B8 /* XCTest.framework in Frameworks */,
+				180152ED193F35C200CF56B8 /* UIKit.framework in Frameworks */,
+				180152EC193F35C200CF56B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180152BF193F35C200CF56B8 = {
+			isa = PBXGroup;
+			children = (
+				180152D1193F35C200CF56B8 /* POISearchDemo */,
+				180152F0193F35C200CF56B8 /* POISearchDemoTests */,
+				180152CA193F35C200CF56B8 /* Frameworks */,
+				180152C9193F35C200CF56B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180152C9193F35C200CF56B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180152C8193F35C200CF56B8 /* POISearchDemo.app */,
+				180152E9193F35C200CF56B8 /* POISearchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180152CA193F35C200CF56B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18015317193F39FE00CF56B8 /* CoreTelephony.framework */,
+				18015315193F39F600CF56B8 /* libz.dylib */,
+				18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */,
+				18015311193F39E800CF56B8 /* SystemConfiguration.framework */,
+				1801530F193F39D500CF56B8 /* MapKit.framework */,
+				18015300193F361100CF56B8 /* AMapSearchKit.framework */,
+				180152CB193F35C200CF56B8 /* Foundation.framework */,
+				180152CD193F35C200CF56B8 /* CoreGraphics.framework */,
+				180152CF193F35C200CF56B8 /* UIKit.framework */,
+				180152EA193F35C200CF56B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180152D1193F35C200CF56B8 /* POISearchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18E68B281944100500DC44DC /* custom annotation */,
+				18F5D3EB1940B3E8001C8739 /* flk.jpg */,
+				180152DA193F35C200CF56B8 /* ZYAppDelegate.h */,
+				180152DB193F35C200CF56B8 /* ZYAppDelegate.m */,
+				180152DD193F35C200CF56B8 /* Main.storyboard */,
+				180152E0193F35C200CF56B8 /* ZYViewController.h */,
+				180152E1193F35C200CF56B8 /* ZYViewController.m */,
+				180152E3193F35C200CF56B8 /* Images.xcassets */,
+				180152D2193F35C200CF56B8 /* Supporting Files */,
+			);
+			path = POISearchDemo;
+			sourceTree = "<group>";
+		};
+		180152D2193F35C200CF56B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180152D3193F35C200CF56B8 /* POISearchDemo-Info.plist */,
+				180152D4193F35C200CF56B8 /* InfoPlist.strings */,
+				180152D7193F35C200CF56B8 /* main.m */,
+				180152D9193F35C200CF56B8 /* POISearchDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180152F0193F35C200CF56B8 /* POISearchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				180152F6193F35C200CF56B8 /* POISearchDemoTests.m */,
+				180152F1193F35C200CF56B8 /* Supporting Files */,
+			);
+			path = POISearchDemoTests;
+			sourceTree = "<group>";
+		};
+		180152F1193F35C200CF56B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180152F2193F35C200CF56B8 /* POISearchDemoTests-Info.plist */,
+				180152F3193F35C200CF56B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E68B281944100500DC44DC /* custom annotation */ = {
+			isa = PBXGroup;
+			children = (
+				1801530C193F393800CF56B8 /* ZYCustomAnnotation.h */,
+				1801530D193F393800CF56B8 /* ZYCustomAnnotation.m */,
+				18F5D3E119409032001C8739 /* ZYCustomAnnotationView.h */,
+				18F5D3E219409032001C8739 /* ZYCustomAnnotationView.m */,
+				18F3997519432798001911E5 /* ZYCustomPinAnnotation.h */,
+				18F3997619432798001911E5 /* ZYCustomPinAnnotation.m */,
+				18F5D3E61940B0E8001C8739 /* ZYCalloutView.h */,
+				18F5D3E71940B0E8001C8739 /* ZYCalloutView.m */,
+				18F5D3E91940B100001C8739 /* ZYCalloutView.xib */,
+			);
+			name = "custom annotation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180152C7193F35C200CF56B8 /* POISearchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180152FA193F35C200CF56B8 /* Build configuration list for PBXNativeTarget "POISearchDemo" */;
+			buildPhases = (
+				180152C4193F35C200CF56B8 /* Sources */,
+				180152C5193F35C200CF56B8 /* Frameworks */,
+				180152C6193F35C200CF56B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POISearchDemo;
+			productName = POISearchDemo;
+			productReference = 180152C8193F35C200CF56B8 /* POISearchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180152E8193F35C200CF56B8 /* POISearchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180152FD193F35C200CF56B8 /* Build configuration list for PBXNativeTarget "POISearchDemoTests" */;
+			buildPhases = (
+				180152E5193F35C200CF56B8 /* Sources */,
+				180152E6193F35C200CF56B8 /* Frameworks */,
+				180152E7193F35C200CF56B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180152EF193F35C200CF56B8 /* PBXTargetDependency */,
+			);
+			name = POISearchDemoTests;
+			productName = POISearchDemoTests;
+			productReference = 180152E9193F35C200CF56B8 /* POISearchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180152C0193F35C200CF56B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = XQ;
+				TargetAttributes = {
+					180152E8193F35C200CF56B8 = {
+						TestTargetID = 180152C7193F35C200CF56B8;
+					};
+				};
+			};
+			buildConfigurationList = 180152C3193F35C200CF56B8 /* Build configuration list for PBXProject "POISearchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180152BF193F35C200CF56B8;
+			productRefGroup = 180152C9193F35C200CF56B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180152C7193F35C200CF56B8 /* POISearchDemo */,
+				180152E8193F35C200CF56B8 /* POISearchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180152C6193F35C200CF56B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F5D3EC1940B3E8001C8739 /* flk.jpg in Resources */,
+				18F5D3EA1940B100001C8739 /* ZYCalloutView.xib in Resources */,
+				180152E4193F35C200CF56B8 /* Images.xcassets in Resources */,
+				180152D6193F35C200CF56B8 /* InfoPlist.strings in Resources */,
+				180152DF193F35C200CF56B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180152E7193F35C200CF56B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180152F5193F35C200CF56B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180152C4193F35C200CF56B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3997719432798001911E5 /* ZYCustomPinAnnotation.m in Sources */,
+				1801530E193F393800CF56B8 /* ZYCustomAnnotation.m in Sources */,
+				18F5D3E319409032001C8739 /* ZYCustomAnnotationView.m in Sources */,
+				180152D8193F35C200CF56B8 /* main.m in Sources */,
+				180152DC193F35C200CF56B8 /* ZYAppDelegate.m in Sources */,
+				18F5D3E81940B0E8001C8739 /* ZYCalloutView.m in Sources */,
+				180152E2193F35C200CF56B8 /* ZYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180152E5193F35C200CF56B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180152F7193F35C200CF56B8 /* POISearchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180152EF193F35C200CF56B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180152C7193F35C200CF56B8 /* POISearchDemo */;
+			targetProxy = 180152EE193F35C200CF56B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180152D4193F35C200CF56B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180152D5193F35C200CF56B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180152DD193F35C200CF56B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180152DE193F35C200CF56B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180152F3193F35C200CF56B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180152F4193F35C200CF56B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180152F8193F35C200CF56B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180152F9193F35C200CF56B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180152FB193F35C200CF56B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POISearchDemo/POISearchDemo-Prefix.pch";
+				INFOPLIST_FILE = "POISearchDemo/POISearchDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180152FC193F35C200CF56B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POISearchDemo/POISearchDemo-Prefix.pch";
+				INFOPLIST_FILE = "POISearchDemo/POISearchDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		180152FE193F35C200CF56B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POISearchDemo.app/POISearchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POISearchDemo/POISearchDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "POISearchDemoTests/POISearchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		180152FF193F35C200CF56B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POISearchDemo.app/POISearchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POISearchDemo/POISearchDemo-Prefix.pch";
+				INFOPLIST_FILE = "POISearchDemoTests/POISearchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180152C3193F35C200CF56B8 /* Build configuration list for PBXProject "POISearchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180152F8193F35C200CF56B8 /* Debug */,
+				180152F9193F35C200CF56B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180152FA193F35C200CF56B8 /* Build configuration list for PBXNativeTarget "POISearchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180152FB193F35C200CF56B8 /* Debug */,
+				180152FC193F35C200CF56B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180152FD193F35C200CF56B8 /* Build configuration list for PBXNativeTarget "POISearchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180152FE193F35C200CF56B8 /* Debug */,
+				180152FF193F35C200CF56B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180152C0193F35C200CF56B8 /* Project object */;
+}
