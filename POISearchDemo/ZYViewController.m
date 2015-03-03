@@ -49,7 +49,7 @@
     float latitude = 32.061;
     float longitude = 118.79125;
     CLLocation *setLocation= [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
-    [self mapView:_mapView_ didUpdateUserLocation:setLocation];
+    [self mapView:_mapView_ didUpdateUserLocation:(MKUserLocation *)setLocation];
     //annotationArray = [[NSMutableArray alloc] init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -174,7 +174,7 @@
             
             [customAnnotationView.contentView addSubview:calloutCell];
             
-            //customAnnotationView.callout = calloutCell;
+            customAnnotationView.callout = calloutCell;
         }
         customAnnotationView.callout.image_.image = [UIImage imageNamed:@"flk.jpg"];
         customAnnotationView.callout.titalLabel.text = [customAnno.infoDic objectForKey:@"name"];
