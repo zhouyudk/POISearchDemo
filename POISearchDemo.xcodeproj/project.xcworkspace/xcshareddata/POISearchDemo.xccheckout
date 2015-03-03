@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF543EF8-AF22-4A43-9C4F-93D25BC2F082</string>
+	<key>IDESourceControlProjectName</key>
+	<string>POISearchDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>023515004BE92774698EC102883D96A67C050D30</key>
+		<string>https://github.com/zhouyudk/POISearchDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>POISearchDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>023515004BE92774698EC102883D96A67C050D30</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhouyudk/POISearchDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>023515004BE92774698EC102883D96A67C050D30</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>023515004BE92774698EC102883D96A67C050D30</string>
+			<key>IDESourceControlWCCName</key>
+			<string>POISearchDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

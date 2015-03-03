@@ -21,18 +21,20 @@
 		180152ED193F35C200CF56B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180152CF193F35C200CF56B8 /* UIKit.framework */; };
 		180152F5193F35C200CF56B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180152F3193F35C200CF56B8 /* InfoPlist.strings */; };
 		180152F7193F35C200CF56B8 /* POISearchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180152F6193F35C200CF56B8 /* POISearchDemoTests.m */; };
-		18015301193F361100CF56B8 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015300193F361100CF56B8 /* AMapSearchKit.framework */; };
 		1801530E193F393800CF56B8 /* ZYCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801530D193F393800CF56B8 /* ZYCustomAnnotation.m */; };
 		18015310193F39D500CF56B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1801530F193F39D500CF56B8 /* MapKit.framework */; };
 		18015312193F39E800CF56B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015311193F39E800CF56B8 /* SystemConfiguration.framework */; };
 		18015314193F39F000CF56B8 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */; };
 		18015316193F39F600CF56B8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015315193F39F600CF56B8 /* libz.dylib */; };
 		18015318193F39FE00CF56B8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18015317193F39FE00CF56B8 /* CoreTelephony.framework */; };
+		180D5111197BA59B00FE64EC /* ZYPOIDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D5110197BA59B00FE64EC /* ZYPOIDetailView.m */; };
+		180D5113197BA5BB00FE64EC /* ZYPOIDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180D5112197BA5BB00FE64EC /* ZYPOIDetailView.xib */; };
+		1846DCA51AA55CF800BEA9D6 /* flk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1846DCA41AA55CF800BEA9D6 /* flk.jpg */; };
+		1846DCA71AA55F9600BEA9D6 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1846DCA61AA55F9600BEA9D6 /* AMapSearchKit.framework */; };
 		18F3997719432798001911E5 /* ZYCustomPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3997619432798001911E5 /* ZYCustomPinAnnotation.m */; };
 		18F5D3E319409032001C8739 /* ZYCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5D3E219409032001C8739 /* ZYCustomAnnotationView.m */; };
 		18F5D3E81940B0E8001C8739 /* ZYCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5D3E71940B0E8001C8739 /* ZYCalloutView.m */; };
 		18F5D3EA1940B100001C8739 /* ZYCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F5D3E91940B100001C8739 /* ZYCalloutView.xib */; };
-		18F5D3EC1940B3E8001C8739 /* flk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F5D3EB1940B3E8001C8739 /* flk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +67,6 @@
 		180152F2193F35C200CF56B8 /* POISearchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POISearchDemoTests-Info.plist"; sourceTree = "<group>"; };
 		180152F4193F35C200CF56B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		180152F6193F35C200CF56B8 /* POISearchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POISearchDemoTests.m; sourceTree = "<group>"; };
-		18015300193F361100CF56B8 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		1801530C193F393800CF56B8 /* ZYCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomAnnotation.h; sourceTree = "<group>"; };
 		1801530D193F393800CF56B8 /* ZYCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomAnnotation.m; sourceTree = "<group>"; };
 		1801530F193F39D500CF56B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -73,6 +74,11 @@
 		18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		18015315193F39F600CF56B8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		18015317193F39FE00CF56B8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		180D510F197BA59B00FE64EC /* ZYPOIDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPOIDetailView.h; sourceTree = "<group>"; };
+		180D5110197BA59B00FE64EC /* ZYPOIDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPOIDetailView.m; sourceTree = "<group>"; };
+		180D5112197BA5BB00FE64EC /* ZYPOIDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYPOIDetailView.xib; sourceTree = "<group>"; };
+		1846DCA41AA55CF800BEA9D6 /* flk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flk.jpg; sourceTree = "<group>"; };
+		1846DCA61AA55F9600BEA9D6 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		18F3997519432798001911E5 /* ZYCustomPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomPinAnnotation.h; sourceTree = "<group>"; };
 		18F3997619432798001911E5 /* ZYCustomPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomPinAnnotation.m; sourceTree = "<group>"; };
 		18F5D3E119409032001C8739 /* ZYCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomAnnotationView.h; sourceTree = "<group>"; };
@@ -80,7 +86,6 @@
 		18F5D3E61940B0E8001C8739 /* ZYCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalloutView.h; sourceTree = "<group>"; };
 		18F5D3E71940B0E8001C8739 /* ZYCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalloutView.m; sourceTree = "<group>"; };
 		18F5D3E91940B100001C8739 /* ZYCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYCalloutView.xib; sourceTree = "<group>"; };
-		18F5D3EB1940B3E8001C8739 /* flk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flk.jpg; path = ../../../Downloads/flk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +98,7 @@
 				18015314193F39F000CF56B8 /* libstdc++.6.0.9.dylib in Frameworks */,
 				18015312193F39E800CF56B8 /* SystemConfiguration.framework in Frameworks */,
 				18015310193F39D500CF56B8 /* MapKit.framework in Frameworks */,
-				18015301193F361100CF56B8 /* AMapSearchKit.framework in Frameworks */,
+				1846DCA71AA55F9600BEA9D6 /* AMapSearchKit.framework in Frameworks */,
 				180152CE193F35C200CF56B8 /* CoreGraphics.framework in Frameworks */,
 				180152D0193F35C200CF56B8 /* UIKit.framework in Frameworks */,
 				180152CC193F35C200CF56B8 /* Foundation.framework in Frameworks */,
@@ -135,12 +140,12 @@
 		180152CA193F35C200CF56B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1846DCA61AA55F9600BEA9D6 /* AMapSearchKit.framework */,
 				18015317193F39FE00CF56B8 /* CoreTelephony.framework */,
 				18015315193F39F600CF56B8 /* libz.dylib */,
 				18015313193F39F000CF56B8 /* libstdc++.6.0.9.dylib */,
 				18015311193F39E800CF56B8 /* SystemConfiguration.framework */,
 				1801530F193F39D500CF56B8 /* MapKit.framework */,
-				18015300193F361100CF56B8 /* AMapSearchKit.framework */,
 				180152CB193F35C200CF56B8 /* Foundation.framework */,
 				180152CD193F35C200CF56B8 /* CoreGraphics.framework */,
 				180152CF193F35C200CF56B8 /* UIKit.framework */,
@@ -152,13 +157,16 @@
 		180152D1193F35C200CF56B8 /* POISearchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1846DCA41AA55CF800BEA9D6 /* flk.jpg */,
 				18E68B281944100500DC44DC /* custom annotation */,
-				18F5D3EB1940B3E8001C8739 /* flk.jpg */,
 				180152DA193F35C200CF56B8 /* ZYAppDelegate.h */,
 				180152DB193F35C200CF56B8 /* ZYAppDelegate.m */,
 				180152DD193F35C200CF56B8 /* Main.storyboard */,
 				180152E0193F35C200CF56B8 /* ZYViewController.h */,
 				180152E1193F35C200CF56B8 /* ZYViewController.m */,
+				180D510F197BA59B00FE64EC /* ZYPOIDetailView.h */,
+				180D5112197BA5BB00FE64EC /* ZYPOIDetailView.xib */,
+				180D5110197BA59B00FE64EC /* ZYPOIDetailView.m */,
 				180152E3193F35C200CF56B8 /* Images.xcassets */,
 				180152D2193F35C200CF56B8 /* Supporting Files */,
 			);
@@ -287,9 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F5D3EC1940B3E8001C8739 /* flk.jpg in Resources */,
+				180D5113197BA5BB00FE64EC /* ZYPOIDetailView.xib in Resources */,
 				18F5D3EA1940B100001C8739 /* ZYCalloutView.xib in Resources */,
 				180152E4193F35C200CF56B8 /* Images.xcassets in Resources */,
+				1846DCA51AA55CF800BEA9D6 /* flk.jpg in Resources */,
 				180152D6193F35C200CF56B8 /* InfoPlist.strings in Resources */,
 				180152DF193F35C200CF56B8 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +324,7 @@
 				18F5D3E319409032001C8739 /* ZYCustomAnnotationView.m in Sources */,
 				180152D8193F35C200CF56B8 /* main.m in Sources */,
 				180152DC193F35C200CF56B8 /* ZYAppDelegate.m in Sources */,
+				180D5111197BA59B00FE64EC /* ZYPOIDetailView.m in Sources */,
 				18F5D3E81940B0E8001C8739 /* ZYCalloutView.m in Sources */,
 				180152E2193F35C200CF56B8 /* ZYViewController.m in Sources */,
 			);

@@ -20,19 +20,6 @@
     }
     return self;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
-
-
-
-
 #define  Arror_height 6
 
 
@@ -42,7 +29,7 @@
     if (self) {
         self.backgroundColor = [UIColor clearColor];
         self.canShowCallout = NO;
-        self.centerOffset = CGPointMake(0, -55);
+        self.centerOffset = CGPointMake(0, -75);
         self.frame = CGRectMake(0, 0, 260, 80);
         
         UIView *contentView_ = [[UIView alloc] initWithFrame:CGRectMake(5, 5, self.frame.size.width-15, self.frame.size.height-15)];

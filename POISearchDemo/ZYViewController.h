@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <AMapSearchKit/AMapSearchAPI.h>
+#import "ZYPOIDetailView.h"
 
 
 @interface ZYViewController : UIViewController<AMapSearchDelegate,MKMapViewDelegate,UIActionSheetDelegate>
